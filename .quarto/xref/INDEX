@@ -1,0 +1,59 @@
+{
+  "index.qmd": {
+    "index.html": "8af47046"
+  },
+  "intro.qmd": {
+    "intro.html": "38c64228"
+  },
+  "summary.qmd": {
+    "summary.html": "43806dce"
+  },
+  "references.qmd": {
+    "references.html": "e35624f4"
+  },
+  "existing-curriculum.qmd": {
+    "existing-curriculum.html": "c6532dfc"
+  },
+  "adc-curriculum.qmd": {
+    "adc-curriculum.html": "2035d4f2"
+  },
+  "lter-curriculum.qmd": {
+    "lter-curriculum.html": "01ac110d"
+  },
+  "neon-curriculum.qmd": {
+    "neon-curriculum.html": "cba9a871"
+  },
+  "conferences.qmd": {
+    "conferences.html": "789b35a1"
+  },
+  "delta-science-curriculum.qmd": {
+    "delta-science-curriculum.html": "e595225b"
+  },
+  "openscapes-curriculum.qmd": {
+    "openscapes-curriculum.html": "c4194ae1"
+  },
+  "reprod-research-techniques-curriculum.qmd": {
+    "reprod-research-techniques-curriculum.html": "d904974b"
+  },
+  "science-nature-people-curriculum.qmd": {
+    "science-nature-people-curriculum.html": "32c06f6a"
+  },
+  "snapp-curriculum.qmd": {
+    "snapp-curriculum.html": "c25f54ac"
+  },
+  "meds-curriculum.qmd": {
+    "meds-curriculum.html": "d978bb72"
+  },
+  "morpho-curriculum.qmd": {
+    "morpho-curriculum.html": "eac1c19c"
+  },
+  "noaa-restore-curriculum.qmd": {
+    "noaa-restore-curriculum.html": "dad70e71"
+  },
+  "nasa-noaa.qmd": {
+    "nasa-noaa.html": "9dbff349"
+  },
+  "other-eds-opps.qmd": {
+    "other-eds-opps.html": "7665d7ae"
+  }
+}

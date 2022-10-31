@@ -1,0 +1,22 @@
+# Welcome {.unnumbered}
+
+This is the internal manual for the Learning Hub at NCEAS.
+
+TO DO:
+
+-   The goal for learning hub
+
+-   How the learning hub got started
+
+-   Why we started this manual
+
+-   Who is this manual for?
+
+-   Add calendar? Dynamic?
+
+## Acknowledgements {.unnumbered}
+
+The Learning Hub Manual is a collaborative effort and many have contributed to the documentation in this book:
+
+-   Halina Do-Linh
+-   Camila Vargas Pouslen

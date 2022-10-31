@@ -1,0 +1,7 @@
+# Delta Science Program Curriculum
+
+https://learning.nceas.ucsb.edu/2021-09-delta/index.html
+
+<https://deltacouncil.ca.gov/delta-science-program/science-synthesis-working-group>
+
+The Delta Science Program partnered with the National Center for Ecological Analysis and Synthesis (NCEAS) in the fall of 2021 to lead a collaborative synthesis working group. The synthesis working group delivered high-quality training in synthetic data science and statistical techniques and provided a focused opportunity for enhanced collaboration between scientists from federal and State agencies as well as academic scientists.

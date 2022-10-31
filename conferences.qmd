@@ -1,0 +1,9 @@
+# Conferences {.unnumbered}
+
+Conferences, events, and more that NCEAS staff have attended to lead a workshop or talk related to Learning Hub curriculum.
+
+| Event Name | Date of Event | Workshop or Talk Name                                 | Brief Description                                                                                                                                                                                                                           | NCEAS Staff                                 | Link to materials |
+|--------|--------|--------|--------------------------------|--------|--------|
+|            | Aug 2021      | Managing Ecological Data for Effective Use and Re-Use | Learn to organize and share your data through all parts of the research cycle. Topics include data organization, data documentation, and the importance of good data management practices for data sharing, collaboration, and data re-use. | Jeanette Clark; Amber Budden; Matthew Jones |                   |
+|            |               |                                                       |                                                                                                                                                                                                                                             |                                             |                   |
+|            |               |                                                       |                                                                                                                                                                                                                                             |                                             |                   |

@@ -1,0 +1,48 @@
+project:
+  type: book
+
+book:
+  title: "Learning Hub Manual"
+  
+  author-meta: "Halina Do-Linh & Camila Vargas Pouslen"
+  date-meta: "10/28/2022"
+  
+  page-footer: 
+    right: This book was built with <a href="https://quarto.org/">Quarto</a>.
+  
+  chapters:
+    - index.qmd
+    
+    - part: existing-curriculum.qmd
+      chapters: 
+        - adc-curriculum.qmd
+        - lter-curriculum.qmd
+        - neon-curriculum.qmd
+        - delta-science-curriculum.qmd
+        - openscapes-curriculum.qmd
+        - reprod-research-techniques-curriculum.qmd
+        - snapp-curriculum.qmd
+        - meds-curriculum.qmd
+        - morpho-curriculum.qmd
+        - noaa-restore-curriculum.qmd
+        - nasa-noaa.qmd
+
+
+    - conferences.qmd
+    
+    - other-eds-opps.qmd
+    
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+
+

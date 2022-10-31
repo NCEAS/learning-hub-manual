@@ -1,0 +1,43 @@
+# Arctic Data Center Curriculum
+
+https://www.nceas.ucsb.edu/arctic-data-center
+
+Staff at NCEAS:
+
+-   Jeanette Clark
+
+-   Matthew Jones
+
+-   Natasha (Tash)
+
+-   Juliet Cohen
+
+## Scalable Computing
+
+### Remote Computing (add link to header)
+
+**Section type:** Technical
+
+**Estimated length of section:**
+
+**General Objectives:**
+
+-   first
+
+-   second
+
+-   third
+
+**Notes:**
+
+-   Camila:
+
+-   Halina:
+
+### python programming
+
+### Clustering 
+
+## Qualitative and Quantitative 
+
+## Reproducible Practices 
