@@ -36,8 +36,26 @@ Staff at NCEAS:
 
 ### python programming
 
-### Clustering 
+**Section type:** Technical
 
-## Qualitative and Quantitative 
+**Estimated length of section:**
 
-## Reproducible Practices 
+**General Objectives:**
+
+-   first
+
+-   second
+
+-   third
+
+**Notes:**
+
+-   Camila:
+
+-   Halina:
+
+### Clustering
+
+## Qualitative and Quantitative
+
+## Reproducible Practices
