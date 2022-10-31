@@ -12,21 +12,23 @@ Staff at NCEAS:
 
 -   Juliet Cohen
 
+-   Daphne Virlar-Knight
+
 ## Scalable Computing
 
-### Remote Computing (add link to header)
+### [Remote Computing](https://learning.nceas.ucsb.edu/2022-09-arctic/sections/02-remote-computing.html)
 
 **Section type:** Technical
 
-**Estimated length of section:**
+**Estimated length of section: 1 h**
 
 **General Objectives:**
 
--   first
+-   Understand the basic architecture of computer networks
 
--   second
+-   Learn how to connect to a remote computer via a shell
 
--   third
+-   Become familiarized with Bash Shell programming to navigate your computer's file system, manipulate files and directories, and automate processes
 
 **Notes:**
 
@@ -34,27 +36,37 @@ Staff at NCEAS:
 
 -   Halina:
 
-### python programming
+### [Python Programming on Clusters](https://learning.nceas.ucsb.edu/2022-09-arctic/sections/03-python-intro.html) 
 
 **Section type:** Technical
 
-**Estimated length of section:**
+**Estimated length of section: 1.5 h**
 
 **General Objectives:**
 
--   first
+-   Basic Python review
 
--   second
+-   Using virtual environments
 
--   third
+-   Writing in Jupyter notebooks
+
+-   Writing functions in Python
 
 **Notes:**
 
--   Camila:
+-   Camila: This is an introduction to Python module
 
 -   Halina:
 
-### Clustering
+### Parallel Programming
+### Group Project: Data staging and Pre-processing
+### Software Design 1: Functions and Councurreny
+### Data Structure and Formats for large Data
+### Parallelization with Dask
+
+### Spatial and Image using Geopandas
+### Parquet and Arrow
+### Documenting and publishing data
 
 ## Qualitative and Quantitative
 
