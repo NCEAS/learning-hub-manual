@@ -58,16 +58,3 @@ Staff at NCEAS:
 
 -   Halina:
 
-### Parallel Programming
-### Group Project: Data staging and Pre-processing
-### Software Design 1: Functions and Councurreny
-### Data Structure and Formats for large Data
-### Parallelization with Dask
-
-### Spatial and Image using Geopandas
-### Parquet and Arrow
-### Documenting and publishing data
-
-## Qualitative and Quantitative
-
-## Reproducible Practices
