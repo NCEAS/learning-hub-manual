@@ -13,12 +13,7 @@ EDS programs that provide EDS or related curriculum.
 ```{r, echo=FALSE, message=FALSE}
 # read in googlesheet "masters-program"
 eds_programs <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing", sheet = "masters-program")
-
-# vector of URLs from link column
-urls <- as.vector(eds_programs['link'])
 ```
-
-
 
 ```{r, echo=FALSE}
 # create table using reactable
@@ -28,15 +23,19 @@ reactable::reactable(eds_programs,
                      highlight = TRUE,
                      striped = TRUE,
                      columns = list(
-                       program_title = colDef("Program"#,
-                                              # cell = function(program_title) {
-                                              #   url <- eds_programs[program_title == program_title, "urls"]
-                                              #   htmltools::tags$a(href = as.character(urls), target = "_blank", as.character(program_title))
-                                              # }
-                                                ), # EO colDef
+                       program_title = colDef("Program",
+                                              cell = function(program_title) {
+                                                
+                                                url <- as.vector(eds_programs['link'])
+                                                htmltools::tags$a(href = as.character(url), target = "_blank", as.character(program_title))
+                                                # for (i in seq_along(url)) {
+                                                #  htmltools::tags$a(href = as.character(url), target = "_blank", as.character(program_title)) 
+                                                # }
+                                              },
+                                                ), # EO program_title colDef
                        organization = colDef("Organization", minWidth = 110),
                        short_description = colDef("Description", minWidth = 200),
-                       link = colDef("Link")
+                       link = colDef("Link", show = FALSE)
                      ), # EO columns list
                      defaultSorted = "organization"
                      ) # EO reactable
