@@ -1,4 +1,14 @@
-# Delta Science Program Curriculum
+# Delta Science Program
+
+TO DO:
+
+-   add history and background to nceas here
+
+-   make staff table? include former staff?
+
+-   include relevant links
+
+-   timeline?
 
 https://learning.nceas.ucsb.edu/2021-09-delta/index.html
 

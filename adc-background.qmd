@@ -1,4 +1,4 @@
-# Arctic Data Center Curriculum
+# Arctic Data Center
 
 https://www.nceas.ucsb.edu/arctic-data-center
 
@@ -36,7 +36,7 @@ Staff at NCEAS:
 
 -   Halina:
 
-### [Python Programming on Clusters](https://learning.nceas.ucsb.edu/2022-09-arctic/sections/03-python-intro.html) 
+### [Python Programming on Clusters](https://learning.nceas.ucsb.edu/2022-09-arctic/sections/03-python-intro.html)
 
 **Section type:** Technical
 
@@ -57,4 +57,3 @@ Staff at NCEAS:
 -   Camila: This is an introduction to Python module
 
 -   Halina:
-

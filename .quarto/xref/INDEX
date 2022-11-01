@@ -55,5 +55,41 @@
   },
   "other-eds-opps.qmd": {
     "other-eds-opps.html": "7665d7ae"
+  },
+  "nceas-programs.qmd": {
+    "nceas-programs.html": "e7e88aa9"
+  },
+  "adc-background.qmd": {
+    "adc-background.html": "df3a3e3d"
+  },
+  "lter-background.qmd": {
+    "lter-background.html": "e16f1f51"
+  },
+  "neon-background.qmd": {
+    "neon-background.html": "45f0a555"
+  },
+  "delta-science-background.qmd": {
+    "delta-science-background.html": "d4f65ac7"
+  },
+  "openscapes-background.qmd": {
+    "openscapes-background.html": "1255800f"
+  },
+  "reprod-research-techniques-background.qmd": {
+    "reprod-research-techniques-background.html": "9363bdb0"
+  },
+  "snapp-background.qmd": {
+    "snapp-background.html": "8df20a0e"
+  },
+  "meds-background.qmd": {
+    "meds-background.html": "bebbd386"
+  },
+  "morpho-background.qmd": {
+    "morpho-background.html": "b52ec9a1"
+  },
+  "noaa-restore-background.qmd": {
+    "noaa-restore-background.html": "58950e56"
+  },
+  "nasa-noaa-background.qmd": {
+    "nasa-noaa-background.html": "19fcc13a"
   }
 }

@@ -117,5 +117,103 @@
     "title": "1  Arctic Data Center Curriculum",
     "section": "1.3 Reproducible Practices",
     "text": "1.3 Reproducible Practices"
+  },
+  {
+    "objectID": "nceas-programs.html",
+    "href": "nceas-programs.html",
+    "title": "Programs at NCEAS",
+    "section": "",
+    "text": "TO DO:\n\nAdd history and background of all programs in their respective qmd’s\nImage of all program logos or hexes here?"
+  },
+  {
+    "objectID": "adc-background.html",
+    "href": "adc-background.html",
+    "title": "1  Arctic Data Center",
+    "section": "",
+    "text": "https://www.nceas.ucsb.edu/arctic-data-center\nStaff at NCEAS:"
+  },
+  {
+    "objectID": "adc-background.html#scalable-computing",
+    "href": "adc-background.html#scalable-computing",
+    "title": "1  Arctic Data Center",
+    "section": "1.1 Scalable Computing",
+    "text": "1.1 Scalable Computing\n\n1.1.1 Remote Computing\nSection type: Technical\nEstimated length of section: 1 h\nGeneral Objectives:\n\nUnderstand the basic architecture of computer networks\nLearn how to connect to a remote computer via a shell\nBecome familiarized with Bash Shell programming to navigate your computer’s file system, manipulate files and directories, and automate processes\n\nNotes:\n\nCamila:\nHalina:\n\n\n\n1.1.2 Python Programming on Clusters\nSection type: Technical\nEstimated length of section: 1.5 h\nGeneral Objectives:\n\nBasic Python review\nUsing virtual environments\nWriting in Jupyter notebooks\nWriting functions in Python\n\nNotes:\n\nCamila: This is an introduction to Python module\nHalina:"
+  },
+  {
+    "objectID": "lter-background.html",
+    "href": "lter-background.html",
+    "title": "2  Long Term Ecological Research (LTER) Network",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nhttps://www.nceas.ucsb.edu/arctic-data-center\nStaff at NCEAS:\n\nJulien Brun\nAngel Chen\nNick Lyons"
+  },
+  {
+    "objectID": "neon-background.html",
+    "href": "neon-background.html",
+    "title": "3  NEON",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
+  },
+  {
+    "objectID": "delta-science-background.html",
+    "href": "delta-science-background.html",
+    "title": "4  Delta Science Program",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nhttps://learning.nceas.ucsb.edu/2021-09-delta/index.html\nhttps://deltacouncil.ca.gov/delta-science-program/science-synthesis-working-group\nThe Delta Science Program partnered with the National Center for Ecological Analysis and Synthesis (NCEAS) in the fall of 2021 to lead a collaborative synthesis working group. The synthesis working group delivered high-quality training in synthetic data science and statistical techniques and provided a focused opportunity for enhanced collaboration between scientists from federal and State agencies as well as academic scientists."
+  },
+  {
+    "objectID": "openscapes-background.html",
+    "href": "openscapes-background.html",
+    "title": "5  Openscapes",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
+  },
+  {
+    "objectID": "reprod-research-techniques-background.html",
+    "href": "reprod-research-techniques-background.html",
+    "title": "6  Reproducible Research Techniques for Synthesis",
+    "section": "",
+    "text": "TO DO:\nhttps://www.nceas.ucsb.edu/learning-hub/short-course"
+  },
+  {
+    "objectID": "reprod-research-techniques-background.html#directors-scholarship",
+    "href": "reprod-research-techniques-background.html#directors-scholarship",
+    "title": "6  Reproducible Research Techniques for Synthesis",
+    "section": "6.1 Director’s Scholarship",
+    "text": "6.1 Director’s Scholarship"
+  },
+  {
+    "objectID": "snapp-background.html",
+    "href": "snapp-background.html",
+    "title": "7  Science for Nature and People Partnership (SNAPP)",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
+  },
+  {
+    "objectID": "meds-background.html",
+    "href": "meds-background.html",
+    "title": "8  MEDS",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nThe Master of Environmental Data Science (MEDS) program of the Bren School of Environmental Science & Management is a one-year program that has dual curriculum at NCEAS and Bren.\nhttps://ucsb-meds.github.io/workshops.html\nStaff at NCEAS:\n\nSamantha Csik"
+  },
+  {
+    "objectID": "morpho-background.html",
+    "href": "morpho-background.html",
+    "title": "9  Morpho",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nhttps://www.nceas.ucsb.edu/morpho\nhttps://www.youtube.com/watch?v=WsZljjwK9GM\nStaff at NCEAS:\n\nCourtney Scarborough\nGeoff Willard"
+  },
+  {
+    "objectID": "noaa-restore-background.html",
+    "href": "noaa-restore-background.html",
+    "title": "10  NOAA RESTORE",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
+  },
+  {
+    "objectID": "nasa-noaa-background.html",
+    "href": "nasa-noaa-background.html",
+    "title": "11  NASA NOAA",
+    "section": "",
+    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
   }
 ]
