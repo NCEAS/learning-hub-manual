@@ -28,6 +28,7 @@ book:
         - nasa-noaa-background.qmd
         
     - part: technical-modules.qmd
+      chapters:
         - intro-to-r.qmd
         - intro-to-r-markdown.qmd
         - intro-to-git-github.qmd
@@ -41,6 +42,7 @@ book:
         - text-analysis-r.qmd
         
     - part: non-technical-modules.qmd
+      chapters:
         - documentig-data.qmd
         - publishing-data.qmd
         - data-modeling-essentials.qmd
