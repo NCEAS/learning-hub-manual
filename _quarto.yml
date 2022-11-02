@@ -27,6 +27,30 @@ book:
         - noaa-restore-background.qmd
         - nasa-noaa-background.qmd
         
+    - part: technical-modules.qmd
+        - intro-to-r.qmd
+        - intro-to-r-markdown.qmd
+        - intro-to-git-github.qmd
+        - git-collaboration-and-conflicts.qmd
+        - cleaning-and-manipulating-data.qmd
+        - data-visualization.qmd
+        - git-branches.qmd
+        - publishing-to-web.qmd
+        - functions-and-packages-r.qmd
+        - spatial-analysis-r.qmd
+        - text-analysis-r.qmd
+        
+    - part: non-technical-modules.qmd
+        - documentig-data.qmd
+        - publishing-data.qmd
+        - data-modeling-essentials.qmd
+        - social-aspects-of-collaboration.qmd
+        - data-portals.qmd
+        - reproducibility-provenance.qmd
+        - data-ethics.qmd
+        - data-mgmt-plan.qmd
+        - community-data.qmd
+        
     - other-eds-opps.qmd
 
 
