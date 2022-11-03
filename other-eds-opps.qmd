@@ -2,11 +2,10 @@
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(reactable) # create tables
-library(tidyverse) # wrangling
 library(googlesheets4) # read in google sheets
 ```
 
-Environmental Data Science (EDS) opportunities are listed here.
+Ongoing list of Environmental Data Science (EDS) opportunities outside of NCEAS. To add to this list
 
 ## EDS Programs
 
@@ -14,62 +13,77 @@ EDS programs that provide EDS or related curriculum.
 
 ```{r, echo=FALSE, message=FALSE}
 # read in googlesheet "masters-program"
-eds_programs <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing", sheet = "masters-program")
+eds_opps <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing", sheet = "eds-opps")
 ```
 
 ```{r, echo=FALSE}
 # create table using reactable
-reactable::reactable(eds_programs,
-                     searchable = TRUE,
-                     defaultPageSize = 3,
+reactable::reactable(eds_opps,
+                     defaultPageSize = 5,
                      highlight = TRUE,
                      striped = TRUE,
+                     filterable = TRUE,
                      columns = list(
-                       program_title = colDef("Program",
-                                              # adds link 
-                                              cell = function(program_title, index) {
-                                                url <- eds_programs[[index, "link"]]
-                                                htmltools::tags$a(href = url, target = "_blank", as.character(program_title))
-                                              },
-                                                ), # EO program_title colDef
-                       organization = colDef("Organization", minWidth = 110),
-                       short_description = colDef("Description", minWidth = 200),
-                       link = colDef("Link", show = FALSE)
-                     ), # EO columns list
-                     defaultSorted = "organization"
+                       type = colDef("Type",
+                                     filterInput = function(values, name) {
+                                       htmltools::tags$select(
+                                         # Set to undefined to clear the filter
+                                         onchange = sprintf("Reactable.setFilter('type-select',
+                                                            '%s', event.target.value ||
+                                                            undefined)", name),
+                                         # "All" has an empty value to clear the filter, and is the default option
+                                         htmltools::tags$option(value = "", "All"),
+                                         lapply(unique(sort(values)), htmltools::tags$option),
+                                         "aria-label" = sprintf("Filter %s", name),
+                                         style = "width: 100%; height: 28px;"
+                                       ) # EO tags$select
+                                     }
+                                     ), # EO colDef type
+                       name = colDef("Name",
+                                     minWidth = 110,
+                                     filterInput = function(values, name) {
+                                       htmltools::tags$select(
+                                         # Set to undefined to clear the filter
+                                         onchange = sprintf("Reactable.setFilter('name-select',
+                                                            '%s', event.target.value ||
+                                                            undefined)", name),
+                                         # "All" has an empty value to clear the filter, and is the default option
+                                         htmltools::tags$option(value = "", "All"),
+                                         lapply(unique(sort(values)), htmltools::tags$option),
+                                         "aria-label" = sprintf("Filter %s", name),
+                                         style = "width: 100%; height: 28px;"
+                                       ) # EO tags$select
+                                     }
+                                     ),
+                       affiliation = colDef("Affiliation",
+                                            minWidth = 110),
+                       twitter_handle = colDef("Twitter Handle",
+                                               minWidth = 110,
+                                               # add link
+                                               cell = function(twitter_handle, index) {
+                                                 url <- eds_opps[[index, "twitter_link"]]
+                                                 htmltools::tags$a(href = url, 
+                                                                   target = "_blank",
+                                                                   as.character(twitter_handle))
+                                               } 
+                                               ),
+                       twitter_link = colDef(show = FALSE),
+                       offering = colDef("Offering",
+                                         # add link
+                                         cell = function(offering, index) {
+                                           url <- eds_opps[[index, "offering_link"]]
+                                           htmltools::tags$a(href = url,
+                                                             target = "_blank",
+                                                             as.character(offering))
+                                         }
+                                         ),
+                       offering_link = colDef(show = FALSE),
+                       brief_description = colDef("Description", 
+                                                  minWidth = 200)
+                     ), # EO columns
+                     elementId = c("type-select","name-select"),
+                     defaultSorted = "name"
                      ) # EO reactable
-```
 
-## EDS Organizations
 
-EDS organizations and more that offer workshops or other EDS support.
-
-```{r, echo=FALSE, message=FALSE}
-# read in googlesheet "other-organizations"
-eds_orgs <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing", sheet = "other-organizations")
-```
-
-```{r, echo=FALSE}
-# create table using reactable
-reactable::reactable(eds_orgs,
-                     searchable = TRUE,
-                     defaultPageSize = 3,
-                     highlight = TRUE,
-                     striped = TRUE,
-                     groupBy = c("organization"),
-                     columns = list(
-                       organization = colDef("Organization", minWidth = 190), 
-                       affiliation = colDef("Affiliation"),
-                       type_of_support = colDef("Type of Support", minWidth = 110,
-                                              # adds link 
-                                              cell = function(type_of_support, index) {
-                                                url <- eds_orgs[[index, "link"]]
-                                                htmltools::tags$a(href = url, target = "_blank", as.character(type_of_support))
-                                              } # EO cell
-                                              ), # EO type_of_support colDef
-                       details = colDef("Description", minWidth = 200),
-                       link = colDef("Link", show = FALSE)
-                     ), # EO columns list
-                     defaultSorted = "organization"
-                     ) # EO reactable
 ```
