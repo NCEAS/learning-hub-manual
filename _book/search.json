@@ -95,7 +95,7 @@
     "href": "other-eds-opps.html",
     "title": "Environmental Data Science Opportunities",
     "section": "",
-    "text": "Ongoing list of Environmental Data Science (EDS) opportunities outside of NCEAS. To add to this"
+    "text": "Ongoing list of Environmental Data Science (EDS) opportunities outside of NCEAS. To contribute to this list, add to the other-eds-opportunities sheet (Note: You may have to request access to edit).\nIf information in this table is inaccurate or broken, please submit an issue to the GitHub learning-hub-manual repository (add link here AFTER transferring repo from hdolinh to NCEAS Enterprise)."
   },
   {
     "objectID": "adc-curriculum.html#scalable-computing",
@@ -145,5 +145,19 @@
     "title": "Environmental Data Science Opportunities",
     "section": "EDS Programs",
     "text": "EDS Programs\nEDS programs that provide EDS or related curriculum."
+  },
+  {
+    "objectID": "other-eds-opps.html#eds-programs-opportunities-organizations-and-more",
+    "href": "other-eds-opps.html#eds-programs-opportunities-organizations-and-more",
+    "title": "Environmental Data Science Opportunities",
+    "section": "EDS Programs, Opportunities, Organizations and More",
+    "text": "EDS Programs, Opportunities, Organizations and More"
+  },
+  {
+    "objectID": "other-eds-opps.html#column-definitions",
+    "href": "other-eds-opps.html#column-definitions",
+    "title": "Environmental Data Science Opportunities",
+    "section": "Column Definitions",
+    "text": "Column Definitions\nEDS Opportunities are classified into one of the following types:\n\n\n\n\n\n\n\nType\nDefinition\n\n\n\n\nAcademia\neds organization affliated with universities, colleges, research labs\n\n\nGovernment\neds program, opportunity or organization affiliated with a state or federal government agency\n\n\nIndependent\neds program, opportunity or organization that was independently created by an individual or group that is neither a business or a non-profit\n\n\nMasters Program\neds opportunities with a formal degree program at a college or university\n\n\nNon-profit\neds organization that is mission-driven and a non-business entity\n\n\n\nThe additional columns are defined as follows:\n\n\n\n\n\n\n\nColumn\nDefinition\n\n\n\n\nName\nname of opportunity, organization or program\n\n\nAffiliation\nif applicable, name of parent organization, group, school, etc that the organization or program is affiliated with\n\n\nTwitter Handle\nname of twitter username\n\n\nOffering\ntype or name of eds opportunity being offered by the organization or program\n\n\nDescription\na very brief description of the eds offering\n\n\n\nThere are columns in the other-eds-opportunities sheet not listed here because they are not shown in this table, but definitions for those columns can be found in the tab definitions in the sheet."
   }
 ]

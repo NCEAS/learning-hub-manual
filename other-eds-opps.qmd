@@ -5,11 +5,11 @@ library(reactable) # create tables
 library(googlesheets4) # read in google sheets
 ```
 
-Ongoing list of Environmental Data Science (EDS) opportunities outside of NCEAS. To add to this list
+Ongoing list of Environmental Data Science (EDS) opportunities outside of NCEAS. To contribute to this list, add to the [other-eds-opportunities](https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing) sheet (*Note:* You may have to request access to edit).
 
-## EDS Programs
+If information in this table is inaccurate or broken, please submit an issue to the GitHub `learning-hub-manual` repository **(add link here AFTER transferring repo from hdolinh to NCEAS Enterprise).**
 
-EDS programs that provide EDS or related curriculum.
+## EDS Programs, Opportunities, Organizations and More
 
 ```{r, echo=FALSE, message=FALSE}
 # read in googlesheet "masters-program"
@@ -87,3 +87,27 @@ reactable::reactable(eds_opps,
 
 
 ```
+
+## Column Definitions
+
+EDS Opportunities are classified into one of the following types:
+
+| **Type**        | **Definition**                                                                                                                               |
+|-------------------|-----------------------------------------------------|
+| Academia        | eds organization affliated with universities, colleges, research labs                                                                        |
+| Government      | eds program, opportunity or organization affiliated with a state or federal government agency                                                |
+| Independent     | eds program, opportunity or organization that was independently created by an individual or group that is neither a business or a non-profit |
+| Masters Program | eds opportunities with a formal degree program at a college or university                                                                    |
+| Non-profit      | eds organization that is mission-driven and a non-business entity                                                                            |
+
+The additional columns are defined as follows:
+
+| Column         | Definition                                                                                                         |
+|------------------|------------------------------------------------------|
+| Name           | name of opportunity, organization or program                                                                       |
+| Affiliation    | if applicable, name of parent organization, group, school, etc that the organization or program is affiliated with |
+| Twitter Handle | name of twitter username                                                                                           |
+| Offering       | type or name of eds opportunity being offered by the organization or program                                       |
+| Description    | a very brief description of the eds offering                                                                       |
+
+There are columns in the [other-eds-opportunities](https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing) sheet not listed here because they are not shown in this table, but definitions for those columns can be found in the tab **definitions** in the sheet.
