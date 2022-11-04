@@ -13,24 +13,25 @@ book:
   chapters:
     - index.qmd
     
-    - part: existing-curriculum.qmd
+    - part: nceas-programs.qmd
       chapters: 
-        - adc-curriculum.qmd
-        - lter-curriculum.qmd
-        - neon-curriculum.qmd
-        - delta-science-curriculum.qmd
-        - openscapes-curriculum.qmd
-        - reprod-research-techniques-curriculum.qmd
-        - snapp-curriculum.qmd
-        - meds-curriculum.qmd
-        - morpho-curriculum.qmd
-        - noaa-restore-curriculum.qmd
-        - nasa-noaa.qmd
+        - adc-background.qmd
+        - lter-background.qmd
+        - neon-background.qmd
+        - delta-science-background.qmd
+        - openscapes-background.qmd
+        - reprod-research-techniques-background.qmd
+        - snapp-background.qmd
+        - meds-background.qmd
+        - morpho-background.qmd
+        - noaa-restore-background.qmd
+        - nasa-noaa-background.qmd
+        
+    - other-eds-opps.qmd
+
 
 
     - conferences.qmd
-    
-    - other-eds-opps.qmd
     
     - references.qmd
 

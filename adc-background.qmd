@@ -1,0 +1,59 @@
+# Arctic Data Center
+
+https://www.nceas.ucsb.edu/arctic-data-center
+
+Staff at NCEAS:
+
+-   Jeanette Clark
+
+-   Matthew Jones
+
+-   Natasha (Tash)
+
+-   Juliet Cohen
+
+-   Daphne Virlar-Knight
+
+## Scalable Computing
+
+### [Remote Computing](https://learning.nceas.ucsb.edu/2022-09-arctic/sections/02-remote-computing.html)
+
+**Section type:** Technical
+
+**Estimated length of section: 1 h**
+
+**General Objectives:**
+
+-   Understand the basic architecture of computer networks
+
+-   Learn how to connect to a remote computer via a shell
+
+-   Become familiarized with Bash Shell programming to navigate your computer's file system, manipulate files and directories, and automate processes
+
+**Notes:**
+
+-   Camila:
+
+-   Halina:
+
+### [Python Programming on Clusters](https://learning.nceas.ucsb.edu/2022-09-arctic/sections/03-python-intro.html)
+
+**Section type:** Technical
+
+**Estimated length of section: 1.5 h**
+
+**General Objectives:**
+
+-   Basic Python review
+
+-   Using virtual environments
+
+-   Writing in Jupyter notebooks
+
+-   Writing functions in Python
+
+**Notes:**
+
+-   Camila: This is an introduction to Python module
+
+-   Halina:

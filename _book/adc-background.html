@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Hub Manual</title>
+<title>Learning Hub Manual - 1&nbsp; Arctic Data Center</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./nceas-programs.html" rel="next">
+<link href="./lter-background.html" rel="next">
+<link href="./nceas-programs.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Learning Hub Manual</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Arctic Data Center</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -94,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Welcome</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -107,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./adc-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Arctic Data Center</span></a>
+  <a href="./adc-background.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Arctic Data Center</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -186,9 +187,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
+  <li><a href="#scalable-computing" id="toc-scalable-computing" class="nav-link active" data-scroll-target="#scalable-computing"><span class="toc-section-number">1.1</span>  Scalable Computing</a>
   <ul class="collapse">
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#remote-computing" id="toc-remote-computing" class="nav-link" data-scroll-target="#remote-computing"><span class="toc-section-number">1.1.1</span>  Remote Computing</a></li>
+  <li><a href="#python-programming-on-clusters" id="toc-python-programming-on-clusters" class="nav-link" data-scroll-target="#python-programming-on-clusters"><span class="toc-section-number">1.1.2</span>  Python Programming on Clusters</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -198,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Learning Hub Manual</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Arctic Data Center</span></h1>
 </div>
 
 
@@ -212,23 +214,48 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome</h1>
-<p>This is the internal manual for the Learning Hub at NCEAS.</p>
-<p>TO DO:</p>
+<p>https://www.nceas.ucsb.edu/arctic-data-center</p>
+<p>Staff at NCEAS:</p>
 <ul>
-<li><p>The goal for learning hub</p></li>
-<li><p>How the learning hub got started</p></li>
-<li><p>Why we started this manual</p></li>
-<li><p>Who is this manual for?</p></li>
-<li><p>Add calendar? Dynamic?</p></li>
+<li><p>Jeanette Clark</p></li>
+<li><p>Matthew Jones</p></li>
+<li><p>Natasha (Tash)</p></li>
+<li><p>Juliet Cohen</p></li>
+<li><p>Daphne Virlar-Knight</p></li>
 </ul>
-<section id="acknowledgements" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
-<p>The Learning Hub Manual is a collaborative effort and many have contributed to the documentation in this book:</p>
+<section id="scalable-computing" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="scalable-computing"><span class="header-section-number">1.1</span> Scalable Computing</h2>
+<section id="remote-computing" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="remote-computing"><span class="header-section-number">1.1.1</span> <a href="https://learning.nceas.ucsb.edu/2022-09-arctic/sections/02-remote-computing.html">Remote Computing</a></h3>
+<p><strong>Section type:</strong> Technical</p>
+<p><strong>Estimated length of section: 1 h</strong></p>
+<p><strong>General Objectives:</strong></p>
 <ul>
-<li>Halina Do-Linh</li>
-<li>Camila Vargas Pouslen</li>
+<li><p>Understand the basic architecture of computer networks</p></li>
+<li><p>Learn how to connect to a remote computer via a shell</p></li>
+<li><p>Become familiarized with Bash Shell programming to navigate your computer’s file system, manipulate files and directories, and automate processes</p></li>
+</ul>
+<p><strong>Notes:</strong></p>
+<ul>
+<li><p>Camila:</p></li>
+<li><p>Halina:</p></li>
+</ul>
+</section>
+<section id="python-programming-on-clusters" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="python-programming-on-clusters"><span class="header-section-number">1.1.2</span> <a href="https://learning.nceas.ucsb.edu/2022-09-arctic/sections/03-python-intro.html">Python Programming on Clusters</a></h3>
+<p><strong>Section type:</strong> Technical</p>
+<p><strong>Estimated length of section: 1.5 h</strong></p>
+<p><strong>General Objectives:</strong></p>
+<ul>
+<li><p>Basic Python review</p></li>
+<li><p>Using virtual environments</p></li>
+<li><p>Writing in Jupyter notebooks</p></li>
+<li><p>Writing functions in Python</p></li>
+</ul>
+<p><strong>Notes:</strong></p>
+<ul>
+<li><p>Camila: This is an introduction to Python module</p></li>
+<li><p>Halina:</p></li>
 </ul>
 
 
@@ -336,10 +363,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./nceas-programs.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Programs at NCEAS</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./nceas-programs.html" class="pagination-link">
-        <span class="nav-page-text">Programs at NCEAS</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./lter-background.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Long Term Ecological Research (LTER) Network</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

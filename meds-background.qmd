@@ -1,4 +1,14 @@
-# MEDS Curriculum
+# MEDS
+
+TO DO:
+
+-   add history and background to nceas here
+
+-   make staff table? include former staff?
+
+-   include relevant links
+
+-   timeline?
 
 The Master of Environmental Data Science (MEDS) program of the Bren School of Environmental Science & Management is a one-year program that has dual curriculum at NCEAS and Bren.
 
