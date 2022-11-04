@@ -93,7 +93,7 @@ reactable::reactable(eds_opps,
 EDS Opportunities are classified into one of the following types:
 
 | **Type**        | **Definition**                                                                                                                               |
-|-------------------|-----------------------------------------------------|
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Academia        | eds organization affliated with universities, colleges, research labs                                                                        |
 | Government      | eds program, opportunity or organization affiliated with a state or federal government agency                                                |
 | Independent     | eds program, opportunity or organization that was independently created by an individual or group that is neither a business or a non-profit |
@@ -103,7 +103,7 @@ EDS Opportunities are classified into one of the following types:
 The additional columns are defined as follows:
 
 | Column         | Definition                                                                                                         |
-|------------------|------------------------------------------------------|
+|----------------|--------------------------------------------------------------------------------------------------------------------|
 | Name           | name of opportunity, organization or program                                                                       |
 | Affiliation    | if applicable, name of parent organization, group, school, etc that the organization or program is affiliated with |
 | Twitter Handle | name of twitter username                                                                                           |
