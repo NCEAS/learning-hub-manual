@@ -28,13 +28,6 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
-    "objectID": "existing-curriculum.html",
-    "href": "existing-curriculum.html",
-    "title": "Existing Curriculum",
-    "section": "",
-    "text": "TO DO:\n\nList of all topics?\nTimeline?"
-  },
-  {
     "objectID": "conferences.html",
     "href": "conferences.html",
     "title": "Conferences",
@@ -42,81 +35,25 @@
     "text": "Event Name\nDate of Event\nWorkshop or Talk Name\nBrief Description\nNCEAS Staff\nLink to materials\n\n\n\n\n\nAug 2021\nManaging Ecological Data for Effective Use and Re-Use\nLearn to organize and share your data through all parts of the research cycle. Topics include data organization, data documentation, and the importance of good data management practices for data sharing, collaboration, and data re-use.\nJeanette Clark; Amber Budden; Matthew Jones"
   },
   {
-    "objectID": "adc-curriculum.html",
-    "href": "adc-curriculum.html",
-    "title": "1  Arctic Data Center Curriculum",
-    "section": "",
-    "text": "https://www.nceas.ucsb.edu/arctic-data-center\nStaff at NCEAS:"
-  },
-  {
-    "objectID": "lter-curriculum.html",
-    "href": "lter-curriculum.html",
-    "title": "2  Long Term Ecological Research Network Curriculum",
-    "section": "",
-    "text": "Staff at NCEAS:\n\nJulien Brun\nAngel Chen\nNick Lyons"
-  },
-  {
-    "objectID": "delta-science-curriculum.html",
-    "href": "delta-science-curriculum.html",
-    "title": "4  Delta Science Program Curriculum",
-    "section": "",
-    "text": "https://deltacouncil.ca.gov/delta-science-program/science-synthesis-working-group\nThe Delta Science Program partnered with the National Center for Ecological Analysis and Synthesis (NCEAS) in the fall of 2021 to lead a collaborative synthesis working group. The synthesis working group delivered high-quality training in synthetic data science and statistical techniques and provided a focused opportunity for enhanced collaboration between scientists from federal and State agencies as well as academic scientists."
-  },
-  {
-    "objectID": "reprod-research-techniques-curriculum.html",
-    "href": "reprod-research-techniques-curriculum.html",
-    "title": "6  Reproducible Research Techniques for Synthesis Curriculum",
-    "section": "",
-    "text": "https://www.nceas.ucsb.edu/learning-hub/short-course"
-  },
-  {
-    "objectID": "reprod-research-techniques-curriculum.html#directors-scholarship",
-    "href": "reprod-research-techniques-curriculum.html#directors-scholarship",
-    "title": "6  Reproducible Research Techniques for Synthesis Curriculum",
-    "section": "6.1 Director's Scholarship",
-    "text": "6.1 Director's Scholarship"
-  },
-  {
-    "objectID": "meds-curriculum.html",
-    "href": "meds-curriculum.html",
-    "title": "8  MEDS Curriculum",
-    "section": "",
-    "text": "https://ucsb-meds.github.io/workshops.html\nStaff at NCEAS:\n\nSamantha Csik"
-  },
-  {
-    "objectID": "morpho-curriculum.html",
-    "href": "morpho-curriculum.html",
-    "title": "9  Morpho Curriculum",
-    "section": "",
-    "text": "https://www.youtube.com/watch?v=WsZljjwK9GM\nStaff at NCEAS:\n\nCourtney Scarborough\nGeoff Willard"
-  },
-  {
     "objectID": "other-eds-opps.html",
     "href": "other-eds-opps.html",
     "title": "Environmental Data Science Opportunities",
     "section": "",
-    "text": "Program Title\nOrganization\nBrief Description\nLink\n\n\n\n\nMasters in Environmental Data Science\nUSC Viterbi School of Engineering\nThe application of data science to complex environmental problems has become increasingly important in evaluating large-scale environmental challenges. Data science technologies complement interdisciplinary analyses of complex environmental issues ranging over many topics such as climate change, water and air pollution, policy analysis, terrestrial and aquatic ecosystem management, biodiversity and many others. The curriculum is designed to prepare individuals to develop and use sophisticated analytical and computer-based methods to assess and protect the Earth's natural resources.\nhttps://viterbigradadmission.usc.edu/programs/masters/msprograms/data-science/ms-in-environmental-data-science/\n\n\nBiological Data Science, MS\nArizona State University\nThe MS program in biological data science provides students with a foundation in biology and computational methods along with hands-on training through real-world projects at the interface of the natural and mathematical sciences.\nStudents learn to manipulate big data, including the generation and analysis of data using statistical and computational toolsets. Students use their analytical skills in ecological, environmental, toxicological and other biological applications. The program incorporates multiple levels of experiential learning to ensure students gain critical thinking skills in addition to core competencies.\nhttps://newcollege.asu.edu/masters-degrees-phds/majorinfo/ASBDSMS/graduate/false/58\n\n\nEarth Data Analytics Professional Graduate Certificate\nEarthLab\nIn today's world of big data, rapid technological change and natural resource scarcity, Earth scientists with data science expertise are in high demand. The Earth Data Analytics - Foundations professional graduate certificate is designed to provide students with a powerful combination of skills in earth science, data analytics, interdisciplinary collaboration and science communication.\nhttps://earthlab.colorado.edu/earth-data-analytics-professional-graduate-certificate\n\n\nWorkforce Programs\nGirls Who Code\nPrimarily focused on girls 3rd-12th grade, but has some programming for college and early career professionals. Active on IG about featuring really awesome coding professionals.\nhttps://girlswhocode.zendesk.com/hc/en-us/categories/4681185195291-Workforce-Programs-\n\n\nMSc Environmental Data Science and Machine Learning\nImperial College of London\nOur MSc Environmental Data Science and Machine Learning will educate future environmental scientists in data science, machine learning and associated computational technologies.\nThis course will deepen your knowledge of cutting-edge data science, machine learning and associated computational and observational techniques, and you will learn to apply this to a broad range of environmentally motivated applications.\nhttps://www.imperial.ac.uk/study/pg/earth-science/environmental-data-science-machine-learning/\n\n\nMIT Technology and Policy Program\nMIT\n[Not strictly focus on EDS] The program prepares graduates for professional careers at the interface of science, technology, and policy, including in industry, government, academia, regulatory agencies or consulting.\nhttps://tpp.mit.edu/academics/tpp-sm-curriculum-2/\n\n\nStanford Code in Place 2021 Playlist (on YouTube)\nMITEECSman\nMIT Electrical Engineer who taught during Stanford’s Coding in Place. He uploaded all his section lesson recordings on YouTube.\nhttps://www.youtube.com/c/MITEECSman\n\n\nCode in Place\nStanford University\nStanford’s volunteer-led course where over 900 teachers from around the world came together to teach over 10,000 students how to code in python. The program is over now, but there may be furture offerings.\nhttps://codeinplace.stanford.edu/\n\n\nInformatics, Master of Science\nNorthen Arizona University\nCore coursework provides learning opportunities in the foundations of informatics, programming and computer science, structuring large-scale data sets, machine learning, and statistical data analysis.\nhttps://nau.edu/school-of-informatics-computing-and-cyber-systems/ms-informatics/\n\n\nMaster of Data Science\nUniversity of British Columbia\n[Not particularly Environmental] Data is everywhere. Continuously generated and collected across every domain, it is a vast and largely untapped resource of information with the potential to reveal insights about every aspect of our lives and the world we live in. However, the ability to uncover these insights is a highly specialized skill possessed by far too few.\nUBC's Master of Data Science program was designed to address this workforce gap by equipping students with the technical skills, practical experience, and most importantly, the confidence to seize opportunities in an ever-expanding field.\nhttps://masterdatascience.ubc.ca/\n\n\nMasters in Geospatial Data Science\nUniversity of Michigan\nThe Geospatial Data Sciences field of study at the University of Michigan School for Environment and Sustainability (SEAS) prepares environmental professionals and researchers to develop and use analytical and computer-intensive data-science methods to assess and steward the Earth's landscapes and natural resources to achieve a sustainable society. Students learn to apply geospatial data science and modeling principles and tools across fields as diverse as geography and land use, social sciences including environmental justice, policy analysis, business, sustainable systems, terrestrial and aquatic ecosystem management, and coupled human-natural systems and environmental justice.\nhttps://seas.umich.edu/academics/master-science/geospatial-data-sciences\n\n\nMaster of Urban Spatial Analytics\nUniversity of Pennsylvania\nThe Master of Urban Spatial Analytics is a one year graduate program that teaches students how to use spatial analysis and data science to address the most pressing public policy and city planning conundrums of our day. We are teaching the next generation of civic technologists. The one-year MUSA program combines coursework on GIS, spatial analysis, data science, statistics, R and python programming, data visualization and web-based mapping with world-class urban content coursework from across the University of Pennsylvania.\nhttps://www.design.upenn.edu/musa/about\n\n\nMaster of Science in Data Science\nUniversity of Washington\nThe industry-relevant curriculum gives you the skills to extract valuable insights from big data. In this program, you will learn expertise in statistical modeling, data management, machine learning, data visualization, software engineering, research design, data ethics, and user experience to meet the growing needs of industry, not-for-profits, government agencies, and other organizations.\nhttps://www.washington.edu/datasciencemasters/\n\n\nEnvironmental Conservation: Environmental Observation and Informatics, M.S.\nUniversity of Wisconsin-Madison\nThe Environmental Observation and Informatics (EOI) named option integrates cross-cutting Earth observation, technologies, and big data analytics in one unique, 15-month, 32-credit program that combines hands-on, in-person training with distance learning. Our goal is to transform students’ technical expertise into integrative synthesis and leadership in environmental observation and interpretation to advance organizational response to environmental change at local, regional, and global scales\nhttps://guide.wisc.edu/graduate/environmental-studies/environmental-conservation-ms/environmental-conservation-environmental-observation-informatics-ms/#:~:text=The%20Environmental%20Observation%20and%20Informatics,person%20training%20with%20distance%20learning"
+    "text": "Ongoing list of Environmental Data Science (EDS) opportunities outside of NCEAS. To contribute to this list, add to the other-eds-opportunities sheet (Note: You may have to request access to edit).\nIf information in this table is inaccurate or broken, please submit an issue to the GitHub learning-hub-manual repository (add link here AFTER transferring repo from hdolinh to NCEAS Enterprise)."
   },
   {
-    "objectID": "adc-curriculum.html#scalable-computing",
-    "href": "adc-curriculum.html#scalable-computing",
-    "title": "1  Arctic Data Center Curriculum",
-    "section": "1.1 Scalable Computing",
-    "text": "1.1 Scalable Computing\n\n1.1.1 Remote Computing (add link to header)\nSection type: Technical\nEstimated length of section:\nGeneral Objectives:\n\nfirst\nsecond\nthird\n\nNotes:\n\nCamila:\nHalina:\n\n\n\n1.1.2 python programming\n\n\n1.1.3 Clustering"
+    "objectID": "other-eds-opps.html#eds-programs-opportunities-organizations-and-more",
+    "href": "other-eds-opps.html#eds-programs-opportunities-organizations-and-more",
+    "title": "Environmental Data Science Opportunities",
+    "section": "EDS Programs, Opportunities, Organizations and More",
+    "text": "EDS Programs, Opportunities, Organizations and More"
   },
   {
-    "objectID": "adc-curriculum.html#qualitative-and-quantitative",
-    "href": "adc-curriculum.html#qualitative-and-quantitative",
-    "title": "1  Arctic Data Center Curriculum",
-    "section": "1.2 Qualitative and Quantitative",
-    "text": "1.2 Qualitative and Quantitative"
-  },
-  {
-    "objectID": "adc-curriculum.html#reproducible-practices",
-    "href": "adc-curriculum.html#reproducible-practices",
-    "title": "1  Arctic Data Center Curriculum",
-    "section": "1.3 Reproducible Practices",
-    "text": "1.3 Reproducible Practices"
+    "objectID": "other-eds-opps.html#column-definitions",
+    "href": "other-eds-opps.html#column-definitions",
+    "title": "Environmental Data Science Opportunities",
+    "section": "Column Definitions",
+    "text": "Column Definitions\nEDS Opportunities are classified into one of the following types:\n\n\n\n\n\n\n\nType\nDefinition\n\n\n\n\nAcademia\neds organization affliated with universities, colleges, research labs\n\n\nGovernment\neds program, opportunity or organization affiliated with a state or federal government agency\n\n\nIndependent\neds program, opportunity or organization that was independently created by an individual or group that is neither a business or a non-profit\n\n\nMasters Program\neds opportunities with a formal degree program at a college or university\n\n\nNon-profit\neds organization that is mission-driven and a non-business entity\n\n\n\nThe additional columns are defined as follows:\n\n\n\n\n\n\n\nColumn\nDefinition\n\n\n\n\nName\nname of opportunity, organization or program\n\n\nAffiliation\nif applicable, name of parent organization, group, school, etc that the organization or program is affiliated with\n\n\nTwitter Handle\nname of twitter username\n\n\nOffering\ntype or name of eds opportunity being offered by the organization or program\n\n\nDescription\na very brief description of the eds offering\n\n\n\nThere are columns in the other-eds-opportunities sheet not listed here because they are not shown in this table, but definitions for those columns can be found in the tab definitions in the sheet."
   },
   {
     "objectID": "nceas-programs.html",
