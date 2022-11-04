@@ -3,6 +3,8 @@
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(reactable) # create tables
 library(googlesheets4) # read in google sheets
+library(htmltools)
+library(tidyverse)
 ```
 
 Ongoing list of Environmental Data Science (EDS) opportunities outside of NCEAS. To contribute to this list, add to the [other-eds-opportunities](https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing) sheet (*Note:* You may have to request access to edit).
@@ -13,7 +15,10 @@ If information in this table is inaccurate or broken, please submit an issue to 
 
 ```{r, echo=FALSE, message=FALSE}
 # read in googlesheet "masters-program"
-eds_opps <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing", sheet = "eds-opps")
+eds_opps <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing", sheet = "eds-opps") %>% 
+  # change type and name to class factors for data list filter in table
+  mutate(type = as.factor(type),
+         name = as.factor(name))
 ```
 
 ```{r, echo=FALSE}
@@ -25,6 +30,8 @@ reactable::reactable(eds_opps,
                      filterable = TRUE,
                      columns = list(
                        type = colDef("Type",
+                                     minWidth = 115,
+                                     # SELECT INPUT FILTER #
                                      filterInput = function(values, name) {
                                        htmltools::tags$select(
                                          # Set to undefined to clear the filter
@@ -40,33 +47,19 @@ reactable::reactable(eds_opps,
                                      }
                                      ), # EO colDef type
                        name = colDef("Name",
-                                     minWidth = 110,
-                                     filterInput = function(values, name) {
-                                       htmltools::tags$select(
-                                         # Set to undefined to clear the filter
-                                         onchange = sprintf("Reactable.setFilter('name-select',
-                                                            '%s', event.target.value ||
-                                                            undefined)", name),
-                                         # "All" has an empty value to clear the filter, and is the default option
-                                         htmltools::tags$option(value = "", "All"),
-                                         lapply(unique(sort(values)), htmltools::tags$option),
-                                         "aria-label" = sprintf("Filter %s", name),
-                                         style = "width: 100%; height: 28px;"
-                                       ) # EO tags$select
-                                     }
-                                     ),
+                                     minWidth = 150),
                        affiliation = colDef("Affiliation",
-                                            minWidth = 110),
+                                            minWidth = 150),
                        twitter_handle = colDef("Twitter Handle",
-                                               minWidth = 110,
+                                               minWidth = 170,
                                                # add link
                                                cell = function(twitter_handle, index) {
                                                  url <- eds_opps[[index, "twitter_link"]]
-                                                 htmltools::tags$a(href = url, 
+                                                 htmltools::tags$a(href = url,
                                                                    target = "_blank",
                                                                    as.character(twitter_handle))
-                                               } 
-                                               ),
+                                               }
+                       ), 
                        twitter_link = colDef(show = FALSE),
                        offering = colDef("Offering",
                                          # add link
@@ -81,7 +74,7 @@ reactable::reactable(eds_opps,
                        brief_description = colDef("Description", 
                                                   minWidth = 200)
                      ), # EO columns
-                     elementId = c("type-select","name-select"),
+                     elementId = c("type-select"),
                      defaultSorted = "name"
                      ) # EO reactable
 
@@ -90,24 +83,29 @@ reactable::reactable(eds_opps,
 
 ## Column Definitions
 
-EDS Opportunities are classified into one of the following types:
+EDS opportunities are classified into one of the following types:
 
+::: {.border}
 | **Type**        | **Definition**                                                                                                                               |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | Academia        | eds organization affliated with universities, colleges, research labs                                                                        |
 | Government      | eds program, opportunity or organization affiliated with a state or federal government agency                                                |
 | Independent     | eds program, opportunity or organization that was independently created by an individual or group that is neither a business or a non-profit |
 | Masters Program | eds opportunities with a formal degree program at a college or university                                                                    |
 | Non-profit      | eds organization that is mission-driven and a non-business entity                                                                            |
+:::
 
-The additional columns are defined as follows:
+[The additional columns are defined as follows:]{style="display:inline-block; margin-top:1rem; margin-bottom:0rem;"}
 
+::: {.border}
 | Column         | Definition                                                                                                         |
-|----------------|--------------------------------------------------------------------------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | Name           | name of opportunity, organization or program                                                                       |
 | Affiliation    | if applicable, name of parent organization, group, school, etc that the organization or program is affiliated with |
-| Twitter Handle | name of twitter username                                                                                           |
 | Offering       | type or name of eds opportunity being offered by the organization or program                                       |
-| Description    | a very brief description of the eds offering                                                                       |
+| Description    | a very brief description of the eds opportunity                                                                    |
+| Twitter Handle | twitter username                                                                                           |
+:::
 
-There are columns in the [other-eds-opportunities](https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing) sheet not listed here because they are not shown in this table, but definitions for those columns can be found in the tab **definitions** in the sheet.
+
+[There are columns in the [other-eds-opportunities](https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing) sheet not listed here because they are not shown in this table, but definitions for those columns can be found in the tab **definitions** in the sheet.]{style="display:inline-block; margin-top:1rem; margin-bottom:0rem;"}
