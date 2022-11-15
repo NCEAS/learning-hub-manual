@@ -27,6 +27,61 @@ book:
         - noaa-restore-background.qmd
         - nasa-noaa-background.qmd
         
+    - part: technical-modules.qmd
+      chapters:
+        - intro-to-r.qmd
+        - intro-to-r-markdown.qmd
+        - intro-to-git-github.qmd
+        - git-branches.qmd
+        - git-pages.qmd
+        - git-collaboration-and-conflicts.qmd
+        - cleaning-and-manipulating-data.qmd
+        - data-visualization.qmd
+        - data-visualization-maps.qmd
+        - publishing-to-web.qmd
+        - functions-r.qmd
+        - packages-r.qmd
+        - spatial-analysis-r.qmd
+        - text-analysis-r.qmd
+        - reproducible-reports.qmd
+        - shiny.qmd
+        - intro-to-command-line.qmd
+        - remote-computing.qmd
+        - intro-to-python.qmd
+        - python-clusters.qmd
+        - parallel-programming.qmd
+        - parallelization-dask.qmd
+        - cloud.computing.qmd
+        - google-earth-engine.qmd
+        - reading-data.qmd
+        
+    - part: data-models-modules.qmd
+      chapters:
+        - bayesian-modeling.qmd
+        - time-series-forcasting.qmd
+        
+    - part: non-technical-modules.qmd
+      chapters:
+        - documenting-data.qmd
+        - publishing-data.qmd
+        - data-modeling-essentials.qmd
+        - social-aspects-of-collaboration.qmd
+        - data-portals.qmd
+        - reproducibility-provenance.qmd
+        - data-ethics.qmd
+        - data-mgmt-plans.qmd
+        - data-management.qmd
+        - community-data.qmd
+        - reproducible-surveys.qmd
+        - team-science-collaboration.qmd
+        - open-data.qmd
+        - missing-data.qmd
+        - data-visualization-theory.qmd
+        - teach-me-how-to-google.qmd
+        - virtual-collaboration.qmd
+        - environmental-data.qmd
+        
+        
     - other-eds-opps.qmd
 
 
