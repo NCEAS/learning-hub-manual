@@ -1,156 +1,79 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Learning Hub Manual",
-    "section": "",
-    "text": "This is the internal manual for the Learning Hub at NCEAS.\nTO DO:\n\nThe goal for learning hub\nHow the learning hub got started\nWhy we started this manual\nWho is this manual for?\nAdd calendar? Dynamic?\n\n\n\nThe Learning Hub Manual is a collaborative effort and many have contributed to the documentation in this book:\n\nHalina Do-Linh\nCamila Vargas Pouslen"
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "conferences.html",
-    "href": "conferences.html",
-    "title": "Conferences",
-    "section": "",
-    "text": "Event Name\nDate of Event\nWorkshop or Talk Name\nBrief Description\nNCEAS Staff\nLink to materials\n\n\n\n\n\nAug 2021\nManaging Ecological Data for Effective Use and Re-Use\nLearn to organize and share your data through all parts of the research cycle. Topics include data organization, data documentation, and the importance of good data management practices for data sharing, collaboration, and data re-use.\nJeanette Clark; Amber Budden; Matthew Jones"
-  },
-  {
-    "objectID": "other-eds-opps.html",
-    "href": "other-eds-opps.html",
-    "title": "Environmental Data Science Opportunities",
-    "section": "",
-    "text": "Ongoing list of Environmental Data Science (EDS) opportunities outside of NCEAS. To contribute to this list, add to the other-eds-opportunities sheet (Note: You may have to request access to edit).\nIf information in this table is inaccurate or broken, please submit an issue to the GitHub learning-hub-manual repository (add link here AFTER transferring repo from hdolinh to NCEAS Enterprise)."
-  },
-  {
     "objectID": "other-eds-opps.html#eds-programs-opportunities-organizations-and-more",
     "href": "other-eds-opps.html#eds-programs-opportunities-organizations-and-more",
-    "title": "Environmental Data Science Opportunities",
-    "section": "EDS Programs, Opportunities, Organizations and More",
-    "text": "EDS Programs, Opportunities, Organizations and More"
+    "title": "15  EDS Opps, Orgs & More",
+    "section": "15.1 EDS Programs, Opportunities, Organizations and More",
+    "text": "15.1 EDS Programs, Opportunities, Organizations and More"
   },
   {
     "objectID": "other-eds-opps.html#column-definitions",
     "href": "other-eds-opps.html#column-definitions",
-    "title": "Environmental Data Science Opportunities",
-    "section": "Column Definitions",
-    "text": "Column Definitions\nEDS opportunities are classified into one of the following types:\n\n\n\n\n\n\n\n\nType\nDefinition\n\n\n\n\nAcademia\neds organization affliated with universities, colleges, research labs\n\n\nGovernment\neds program, opportunity or organization affiliated with a state or federal government agency\n\n\nIndependent\neds program, opportunity or organization that was independently created by an individual or group that is neither a business or a non-profit\n\n\nMasters Program\neds opportunities with a formal degree program at a college or university\n\n\nNon-profit\neds organization that is mission-driven and a non-business entity\n\n\n\n\nThe additional columns are defined as follows:\n\n\n\n\n\n\n\n\nColumn\nDefinition\n\n\n\n\nName\nname of opportunity, organization or program\n\n\nAffiliation\nif applicable, name of parent organization, group, school, etc that the organization or program is affiliated with\n\n\nOffering\ntype or name of eds opportunity being offered by the organization or program\n\n\nDescription\na very brief description of the eds opportunity\n\n\nTwitter Handle\ntwitter username\n\n\n\n\nThere are columns in the other-eds-opportunities sheet not listed here because they are not shown in this table, but definitions for those columns can be found in the tab definitions in the sheet."
+    "title": "15  EDS Opps, Orgs & More",
+    "section": "15.2 Column Definitions",
+    "text": "15.2 Column Definitions\nEDS opportunities are classified into one of the following types:\n\n\n\n\n\n\n\n\nType\nDefinition\n\n\n\n\nAcademia\neds organization affliated with universities, colleges, research labs\n\n\nGovernment\neds program, opportunity or organization affiliated with a state or federal government agency\n\n\nIndependent\neds program, opportunity or organization that was independently created by an individual or group that is neither a business or a non-profit\n\n\nMasters Program\neds opportunities with a formal degree program at a college or university\n\n\nNon-profit\neds organization that is mission-driven and a non-business entity\n\n\n\n\nThe additional columns are defined as follows:\n\n\n\n\n\n\n\n\nColumn\nDefinition\n\n\n\n\nName\nname of opportunity, organization or program\n\n\nAffiliation\nif applicable, name of parent organization, group, school, etc that the organization or program is affiliated with\n\n\nOffering\ntype or name of eds opportunity being offered by the organization or program\n\n\nDescription\na very brief description of the eds opportunity\n\n\nTwitter Handle\ntwitter username\n\n\n\n\nThere are columns in the other-eds-opportunities sheet not listed here because they are not shown in this table, but definitions for those columns can be found in the tab definitions in the sheet."
+  },
+  {
+    "objectID": "conferences.html",
+    "href": "conferences.html",
+    "title": "16  Conferences",
+    "section": "",
+    "text": "Conferences, events, and more that NCEAS staff have attended to lead a workshop or talk related to Learning Hub curriculum.\n\n\n\n\n\n\n\n\n\n\n\nEvent Name\nDate of Event\nWorkshop or Talk Name\nBrief Description\nNCEAS Staff\nLink to materials\n\n\n\n\n\nAug 2021\nManaging Ecological Data for Effective Use and Re-Use\nLearn to organize and share your data through all parts of the research cycle. Topics include data organization, data documentation, and the importance of good data management practices for data sharing, collaboration, and data re-use.\nJeanette Clark; Amber Budden; Matthew Jones"
   },
   {
     "objectID": "nceas-programs.html",
     "href": "nceas-programs.html",
-    "title": "Programs at NCEAS",
+    "title": "Active NCEAS Training Programs and Collaborations",
     "section": "",
-    "text": "TO DO:\n\nAdd history and background of all programs in their respective qmd’s\nImage of all program logos or hexes here?"
-  },
-  {
-    "objectID": "adc-background.html",
-    "href": "adc-background.html",
-    "title": "1  Arctic Data Center",
-    "section": "",
-    "text": "https://www.nceas.ucsb.edu/arctic-data-center\nStaff at NCEAS:"
+    "text": "These are the programs at NCEAS\nTO DO:\n\nAdd history and background of all programs in their respective qmd’s\nImage of all program logos or hexes here?"
   },
   {
     "objectID": "adc-background.html#scalable-computing",
     "href": "adc-background.html#scalable-computing",
-    "title": "1  Arctic Data Center",
-    "section": "1.1 Scalable Computing",
-    "text": "1.1 Scalable Computing\n\n1.1.1 Remote Computing\nSection type: Technical\nEstimated length of section: 1 h\nGeneral Objectives:\n\nUnderstand the basic architecture of computer networks\nLearn how to connect to a remote computer via a shell\nBecome familiarized with Bash Shell programming to navigate your computer’s file system, manipulate files and directories, and automate processes\n\nNotes:\n\nCamila:\nHalina:\n\n\n\n1.1.2 Python Programming on Clusters\nSection type: Technical\nEstimated length of section: 1.5 h\nGeneral Objectives:\n\nBasic Python review\nUsing virtual environments\nWriting in Jupyter notebooks\nWriting functions in Python\n\nNotes:\n\nCamila: This is an introduction to Python module\nHalina:"
+    "title": "3  Arctic Data Center",
+    "section": "3.1 Scalable Computing",
+    "text": "3.1 Scalable Computing\n\n3.1.1 Remote Computing\nSection type: Technical\nEstimated length of section: 1 h\nGeneral Objectives:\n\nUnderstand the basic architecture of computer networks\nLearn how to connect to a remote computer via a shell\nBecome familiarized with Bash Shell programming to navigate your computer’s file system, manipulate files and directories, and automate processes\n\nNotes:\n\nCamila:\nHalina:\n\n\n\n3.1.2 Python Programming on Clusters\nSection type: Technical\nEstimated length of section: 1.5 h\nGeneral Objectives:\n\nBasic Python review\nUsing virtual environments\nWriting in Jupyter notebooks\nWriting functions in Python\n\nNotes:\n\nCamila: This is an introduction to Python module\nHalina:"
   },
   {
     "objectID": "lter-background.html",
     "href": "lter-background.html",
-    "title": "2  Long Term Ecological Research (LTER) Network",
+    "title": "5  LTER Network",
     "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nhttps://www.nceas.ucsb.edu/arctic-data-center\nStaff at NCEAS:\n\nJulien Brun\nAngel Chen\nNick Lyons"
+    "text": "TO DO:\n\nadd history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nhttps://www.nceas.ucsb.edu/arctic-data-center\nStaff at NCEAS:\n\nJulien Brun\nAngel Chen\nNick Lyons"
   },
   {
     "objectID": "neon-background.html",
     "href": "neon-background.html",
     "title": "3  NEON",
     "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
+    "text": "TO DO:\n\nadd history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
   },
   {
-    "objectID": "delta-science-background.html",
-    "href": "delta-science-background.html",
-    "title": "4  Delta Science Program",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Hub Manual",
     "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nhttps://learning.nceas.ucsb.edu/2021-09-delta/index.html\nhttps://deltacouncil.ca.gov/delta-science-program/science-synthesis-working-group\nThe Delta Science Program partnered with the National Center for Ecological Analysis and Synthesis (NCEAS) in the fall of 2021 to lead a collaborative synthesis working group. The synthesis working group delivered high-quality training in synthetic data science and statistical techniques and provided a focused opportunity for enhanced collaboration between scientists from federal and State agencies as well as academic scientists."
+    "text": "Welcome\nThis is the internal manual for the Learning Hub at NCEAS.\nTO DO:"
   },
   {
-    "objectID": "openscapes-background.html",
-    "href": "openscapes-background.html",
-    "title": "5  Openscapes",
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Learning Hub Manual",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThe Learning Hub Manual is a collaborative effort and many have contributed to the documentation in this book:\n\nHalina Do-Linh\nCamila Vargas Pouslen"
+  },
+  {
+    "objectID": "coreR-background.html#directors-scholarship",
+    "href": "coreR-background.html#directors-scholarship",
+    "title": "1  coreR Course",
+    "section": "1.1 Director’s Scholarship",
+    "text": "1.1 Director’s Scholarship"
+  },
+  {
+    "objectID": "active-nceas-programs.html",
+    "href": "active-nceas-programs.html",
+    "title": "Active NCEAS Training Programs & Collaborations",
     "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
-  },
-  {
-    "objectID": "reprod-research-techniques-background.html",
-    "href": "reprod-research-techniques-background.html",
-    "title": "6  Reproducible Research Techniques for Synthesis",
-    "section": "",
-    "text": "TO DO:\nhttps://www.nceas.ucsb.edu/learning-hub/short-course"
-  },
-  {
-    "objectID": "reprod-research-techniques-background.html#directors-scholarship",
-    "href": "reprod-research-techniques-background.html#directors-scholarship",
-    "title": "6  Reproducible Research Techniques for Synthesis",
-    "section": "6.1 Director’s Scholarship",
-    "text": "6.1 Director’s Scholarship"
-  },
-  {
-    "objectID": "snapp-background.html",
-    "href": "snapp-background.html",
-    "title": "7  Science for Nature and People Partnership (SNAPP)",
-    "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
-  },
-  {
-    "objectID": "meds-background.html",
-    "href": "meds-background.html",
-    "title": "8  MEDS",
-    "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nThe Master of Environmental Data Science (MEDS) program of the Bren School of Environmental Science & Management is a one-year program that has dual curriculum at NCEAS and Bren.\nhttps://ucsb-meds.github.io/workshops.html\nStaff at NCEAS:\n\nSamantha Csik"
-  },
-  {
-    "objectID": "morpho-background.html",
-    "href": "morpho-background.html",
-    "title": "9  Morpho",
-    "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?\n\nhttps://www.nceas.ucsb.edu/morpho\nhttps://www.youtube.com/watch?v=WsZljjwK9GM\nStaff at NCEAS:\n\nCourtney Scarborough\nGeoff Willard"
-  },
-  {
-    "objectID": "noaa-restore-background.html",
-    "href": "noaa-restore-background.html",
-    "title": "10  NOAA RESTORE",
-    "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
-  },
-  {
-    "objectID": "nasa-noaa-background.html",
-    "href": "nasa-noaa-background.html",
-    "title": "11  NASA NOAA",
-    "section": "",
-    "text": "add history and background to nceas here\nmake staff table? include former staff?\ninclude relevant links\ntimeline?"
+    "text": "These are the programs at NCEAS\nTO DO:\n\nAdd history and background of all programs in their respective qmd’s\nImage of all program logos or hexes here?"
   }
 ]

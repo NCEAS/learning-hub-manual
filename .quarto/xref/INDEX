@@ -91,5 +91,173 @@
   },
   "nasa-noaa-background.qmd": {
     "nasa-noaa-background.html": "19fcc13a"
+  },
+  "technical-modules.qmd": {
+    "technical-modules.html": "2628e17d"
+  },
+  "intro-to-r.qmd": {
+    "intro-to-r.html": "b536fa93"
+  },
+  "intro-to-rmarkdown.qmd": {
+    "intro-to-rmarkdown.html": "004d32e9"
+  },
+  "intro-to-git-github.qmd": {
+    "intro-to-git-github.html": "b78098fb"
+  },
+  "git-branches.qmd": {
+    "git-branches.html": "aa5f0881"
+  },
+  "git-pages.qmd": {
+    "git-pages.html": "a174591a"
+  },
+  "git-collaboration-and-conflicts.qmd": {
+    "git-collaboration-and-conflicts.html": "92ee7dfc"
+  },
+  "cleaning-and-manipulating-data.qmd": {
+    "cleaning-and-manipulating-data.html": "8afe2d8b"
+  },
+  "data-visualization.qmd": {
+    "data-visualization.html": "c8dddb22"
+  },
+  "data-visualization-maps.qmd": {
+    "data-visualization-maps.html": "de335fa5"
+  },
+  "publishing-to-web.qmd": {
+    "publishing-to-web.html": "ce2c2691"
+  },
+  "functions-r.qmd": {
+    "functions-r.html": "6b6e5acf"
+  },
+  "packages-r.qmd": {
+    "packages-r.html": "0ea94424"
+  },
+  "spatial-analysis-r.qmd": {
+    "spatial-analysis-r.html": "f140293a"
+  },
+  "text-analysis-r.qmd": {
+    "text-analysis-r.html": "0f5a88ea"
+  },
+  "reproducible-reports.qmd": {
+    "reproducible-reports.html": "bfb89152"
+  },
+  "shiny.qmd": {
+    "shiny.html": "68ee834e"
+  },
+  "intro-to-command-line.qmd": {
+    "intro-to-command-line.html": "28a0259e"
+  },
+  "remote-computing.qmd": {
+    "remote-computing.html": "754284cb"
+  },
+  "intro-to-python.qmd": {
+    "intro-to-python.html": "5c3a0cb6"
+  },
+  "python-clusters.qmd": {
+    "python-clusters.html": "7986eb98"
+  },
+  "parallel-programming.qmd": {
+    "parallel-programming.html": "798c23f0"
+  },
+  "parallelization-dask.qmd": {
+    "parallelization-dask.html": "e7b25860"
+  },
+  "cloud-computing.qmd": {
+    "cloud-computing.html": "494a302e"
+  },
+  "google-earth-engine.qmd": {
+    "google-earth-engine.html": "b1a989fd"
+  },
+  "reading-data.qmd": {
+    "reading-data.html": "cc848f0e"
+  },
+  "data-models-modules.qmd": {
+    "data-models-modules.html": "adb5421f"
+  },
+  "bayesian-modeling.qmd": {
+    "bayesian-modeling.html": "d0e949ac"
+  },
+  "time-series-forcasting.qmd": {
+    "time-series-forcasting.html": "e999d933"
+  },
+  "documenting-data.qmd": {
+    "documenting-data.html": "04ae162f"
+  },
+  "publishing-data.qmd": {
+    "publishing-data.html": "55e14def"
+  },
+  "data-modeling-essentials.qmd": {
+    "data-modeling-essentials.html": "daae9d95"
+  },
+  "social-aspects-of-collaboration.qmd": {
+    "social-aspects-of-collaboration.html": "b66d2804"
+  },
+  "data-portals.qmd": {
+    "data-portals.html": "7d49d992"
+  },
+  "reproducibility-provenance.qmd": {
+    "reproducibility-provenance.html": "23af5f90"
+  },
+  "data-ethics.qmd": {
+    "data-ethics.html": "82357d12"
+  },
+  "data-mgmt-plans.qmd": {
+    "data-mgmt-plans.html": "d7705a36"
+  },
+  "data-management.qmd": {
+    "data-management.html": "0a586929"
+  },
+  "community-data.qmd": {
+    "community-data.html": "24d6a102"
+  },
+  "reproducible-surveys.qmd": {
+    "reproducible-surveys.html": "f60bca31"
+  },
+  "team-science-collaboration.qmd": {
+    "team-science-collaboration.html": "a6f5a48d"
+  },
+  "open-science.qmd": {
+    "open-science.html": "d9ad1f80"
+  },
+  "missing-data.qmd": {
+    "missing-data.html": "e4b99f52"
+  },
+  "data-visualization-theory.qmd": {
+    "data-visualization-theory.html": "d46074fa"
+  },
+  "teach-me-how-to-google.qmd": {
+    "teach-me-how-to-google.html": "7c5cd95a"
+  },
+  "virtual-collaboration.qmd": {
+    "virtual-collaboration.html": "2953b778"
+  },
+  "environmental-data.qmd": {
+    "environmental-data.html": "099f61b8"
+  },
+  "coreR-background.qmd": {
+    "coreR-background.html": "3a42ed61"
+  },
+  "openS-background.qmd": {
+    "openS-background.html": "a2d1b3b4"
+  },
+  "lh-programs.qmd": {
+    "lh-programs.html": "7b76d461"
+  },
+  "active-nceas-programs.qmd": {
+    "active-nceas-programs.html": "fc56f0f5"
+  },
+  "inactive-nceas-programs.qmd": {
+    "inactive-nceas-programs.html": "801b81d1"
+  },
+  "comms-outreach.qmd": {
+    "comms-outreach.html": "f061150f"
+  },
+  "curriculum.qmd": {
+    "curriculum.html": "59678e34"
+  },
+  "lh-modules.qmd": {
+    "lh-modules.html": "ed02f130"
+  },
+  "pedagogy.qmd": {
+    "pedagogy.html": "f9d76ef1"
   }
 }
