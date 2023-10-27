@@ -1,4 +1,6 @@
-# Reproducible Research Techniques for Synthesis 
+---
+title: "coreR Course"
+---
 
 TO DO:
 
