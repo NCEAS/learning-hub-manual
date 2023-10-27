@@ -4,89 +4,102 @@ project:
 book:
   title: "Learning Hub Manual"
   
-  author-meta: "Halina Do-Linh & Camila Vargas Pouslen"
-  date-meta: "10/28/2022"
-  
   page-footer: 
     right: This book was built with <a href="https://quarto.org/">Quarto</a>.
+    
+  cover-image: LearningHubHexSketch.png
+  favicon: LearningHubHexSketch.png
+  
+  site-url: https://www.nceas.ucsb.edu/learning-hub
+  repo-url: https://github.com/nceas/learning-hub-manual
   
   chapters:
     - index.qmd
     
-    - part: nceas-programs.qmd
+    - part: lh-programs.qmd
       chapters: 
+        - coreR-background.qmd
+        - openS-background.qmd
+    
+    - part: active-nceas-programs.qmd
+      chapters:
         - adc-background.qmd
-        - lter-background.qmd
-        - neon-background.qmd
         - delta-science-background.qmd
-        - openscapes-background.qmd
-        - reprod-research-techniques-background.qmd
-        - snapp-background.qmd
+        - lter-background.qmd
         - meds-background.qmd
+        - openscapes-background.qmd
         - morpho-background.qmd
         - noaa-restore-background.qmd
         - nasa-noaa-background.qmd
         
-    - part: technical-modules.qmd
+    - part: inactive-nceas-programs.qmd
       chapters:
-        - intro-to-r.qmd
-        - intro-to-r-markdown.qmd
-        - intro-to-git-github.qmd
-        - git-branches.qmd
-        - git-pages.qmd
-        - git-collaboration-and-conflicts.qmd
-        - cleaning-and-manipulating-data.qmd
-        - data-visualization.qmd
-        - data-visualization-maps.qmd
-        - publishing-to-web.qmd
-        - functions-r.qmd
-        - packages-r.qmd
-        - spatial-analysis-r.qmd
-        - text-analysis-r.qmd
-        - reproducible-reports.qmd
-        - shiny.qmd
-        - intro-to-command-line.qmd
-        - remote-computing.qmd
-        - intro-to-python.qmd
-        - python-clusters.qmd
-        - parallel-programming.qmd
-        - parallelization-dask.qmd
-        - cloud.computing.qmd
-        - google-earth-engine.qmd
-        - reading-data.qmd
+        - snapp-background.qmd
+        - neon-background.qmd
         
-    - part: data-models-modules.qmd
+    - part: curriculum.qmd
       chapters:
-        - bayesian-modeling.qmd
-        - time-series-forcasting.qmd
+        - lh-modules.qmd
+        - pedagogy.qmd
         
-    - part: non-technical-modules.qmd
-      chapters:
-        - documenting-data.qmd
-        - publishing-data.qmd
-        - data-modeling-essentials.qmd
-        - social-aspects-of-collaboration.qmd
-        - data-portals.qmd
-        - reproducibility-provenance.qmd
-        - data-ethics.qmd
-        - data-mgmt-plans.qmd
-        - data-management.qmd
-        - community-data.qmd
-        - reproducible-surveys.qmd
-        - team-science-collaboration.qmd
-        - open-data.qmd
-        - missing-data.qmd
-        - data-visualization-theory.qmd
-        - teach-me-how-to-google.qmd
-        - virtual-collaboration.qmd
-        - environmental-data.qmd
+    - part: comms-outreach.qmd
+      chapters: 
+        - other-eds-opps.qmd
+        - conferences.qmd
         
-        
-    - other-eds-opps.qmd
-
-
-
-    - conferences.qmd
+    # - part: technical-modules.qmd
+    #   chapters:
+    #     - intro-to-r.qmd
+    #     - intro-to-rmarkdown.qmd
+    #     - intro-to-git-github.qmd
+    #     - git-branches.qmd
+    #     - git-pages.qmd
+    #     - git-collaboration-and-conflicts.qmd
+    #     - cleaning-and-manipulating-data.qmd
+    #     - data-visualization.qmd
+    #     - data-visualization-maps.qmd
+    #     - publishing-to-web.qmd
+    #     - functions-r.qmd
+    #     - packages-r.qmd
+    #     - spatial-analysis-r.qmd
+    #     - text-analysis-r.qmd
+    #     - reproducible-reports.qmd
+    #     - shiny.qmd
+    #     - intro-to-command-line.qmd
+    #     - remote-computing.qmd
+    #     - intro-to-python.qmd
+    #     - python-clusters.qmd
+    #     - parallel-programming.qmd
+    #     - parallelization-dask.qmd
+    #     - cloud-computing.qmd
+    #     - google-earth-engine.qmd
+    #     - reading-data.qmd
+    #     
+    # - part: data-models-modules.qmd
+    #   chapters:
+    #     - bayesian-modeling.qmd
+    #     - time-series-forcasting.qmd
+    #     
+    # - part: non-technical-modules.qmd
+    #   chapters:
+    #     - documenting-data.qmd
+    #     - publishing-data.qmd
+    #     - data-modeling-essentials.qmd
+    #     - social-aspects-of-collaboration.qmd
+    #     - data-portals.qmd
+    #     - reproducibility-provenance.qmd
+    #     - data-ethics.qmd
+    #     - data-mgmt-plans.qmd
+    #     - data-management.qmd
+    #     - community-data.qmd
+    #     - reproducible-surveys.qmd
+    #     - team-science-collaboration.qmd
+    #     - open-science.qmd
+    #     - missing-data.qmd
+    #     - data-visualization-theory.qmd
+    #     - teach-me-how-to-google.qmd
+    #     - virtual-collaboration.qmd
+    #     - environmental-data.qmd
     
     - references.qmd
 
@@ -96,6 +109,10 @@ format:
   html:
     theme: cosmo
     link-external-newwindow: true
+    
+    author-meta: "Halina Do-Linh & Camila Vargas Pouslen"
+    date-meta: "10/28/2022"
+    
   pdf:
     documentclass: scrreprt
 
