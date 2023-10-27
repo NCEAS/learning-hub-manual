@@ -1,6 +1,10 @@
-# Environmental Data Science Opportunities {.unnumbered}
+---
+title: "EDS Opps, Orgs & More"
+---
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r}
+#| echo: false
+#| message: false
 library(reactable) # create tables
 library(googlesheets4) # read in google sheets
 library(htmltools)
@@ -13,7 +17,9 @@ If information in this table is inaccurate or broken, please submit an issue to 
 
 ## EDS Programs, Opportunities, Organizations and More
 
-```{r, echo=FALSE, message=FALSE}
+```{r}
+#| echo: false
+#| message: false
 # read in googlesheet "masters-program"
 eds_opps <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing", sheet = "eds-opps") %>% 
   # change type and name to class factors for data list filter in table
@@ -21,7 +27,8 @@ eds_opps <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1y
          name = as.factor(name))
 ```
 
-```{r, echo=FALSE}
+```{r}
+#| echo: false
 # create table using reactable
 reactable::reactable(eds_opps,
                      defaultPageSize = 5,
@@ -85,9 +92,9 @@ reactable::reactable(eds_opps,
 
 EDS opportunities are classified into one of the following types:
 
-::: {.border}
+::: border
 | **Type**        | **Definition**                                                                                                                               |
-|-----------------------|-------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Academia        | eds organization affliated with universities, colleges, research labs                                                                        |
 | Government      | eds program, opportunity or organization affiliated with a state or federal government agency                                                |
 | Independent     | eds program, opportunity or organization that was independently created by an individual or group that is neither a business or a non-profit |
@@ -97,15 +104,14 @@ EDS opportunities are classified into one of the following types:
 
 [The additional columns are defined as follows:]{style="display:inline-block; margin-top:1rem; margin-bottom:0rem;"}
 
-::: {.border}
+::: border
 | Column         | Definition                                                                                                         |
-|-----------------------|-------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Name           | name of opportunity, organization or program                                                                       |
 | Affiliation    | if applicable, name of parent organization, group, school, etc that the organization or program is affiliated with |
 | Offering       | type or name of eds opportunity being offered by the organization or program                                       |
 | Description    | a very brief description of the eds opportunity                                                                    |
-| Twitter Handle | twitter username                                                                                           |
+| Twitter Handle | twitter username                                                                                                   |
 :::
-
 
 [There are columns in the [other-eds-opportunities](https://docs.google.com/spreadsheets/d/1y5_7cpGG1eb56cnMZl9sb-AbfaSCc3hidZjs5L7VZoA/edit?usp=sharing) sheet not listed here because they are not shown in this table, but definitions for those columns can be found in the tab **definitions** in the sheet.]{style="display:inline-block; margin-top:1rem; margin-bottom:0rem;"}
