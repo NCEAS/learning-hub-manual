@@ -1,4 +1,6 @@
-# Long Term Ecological Research (LTER) Network
+---
+title: "LTER Network"
+---
 
 TO DO:
 
